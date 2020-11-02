@@ -75,16 +75,26 @@ void p1collision(){
     else if(ballypos < (yplayer1 + 38)){
       ballyspeed = -3;
     }
-    if(ballypos > (yplayer1 + 42)){
-      if(ballypos < (yplayer1 + 60)){
-        ballyspeed = 3;
-      }
-      else if(ballypos < (yplayer1 + 80)){
-        ballyspeed = 5;
-      }
-      else{
-        ballyspeed = 7;
-      }
+    else if(ballypos < (yplayer1 + 39)){
+      ballyspeed = -2;
+    }
+    else if(ballypos < (yplayer1 + 41)){
+      ballyspeed = -1;
+    }
+    else if(ballypos < (yplayer1 + 42)){
+      ballyspeed = 1;
+    }
+    else if(ballypos < (yplayer1 + 44)){
+      ballyspeed = 2;
+    }
+    else if(ballypos < (yplayer1 + 60)){
+      ballyspeed = 3;
+    }
+    else if(ballypos < (yplayer1 + 80)){
+      ballyspeed = 5;
+    }
+    else{
+      ballyspeed = 7;
     }
   }
 }
@@ -100,16 +110,26 @@ void p2collision(){
     else if(ballypos < (yplayer2 + 38)){
       ballyspeed = -3;
     }
-    if(ballypos > (yplayer2 + 42)){
-      if(ballypos < (yplayer2 + 60)){
-        ballyspeed = 3;
-      }
-      else if(ballypos < (yplayer2 + 80)){
-        ballyspeed = 5;
-      }
-      else{
-        ballyspeed = 7;
-      }
+    else if(ballypos < (yplayer1 + 39)){
+      ballyspeed = -2;
+    }
+    else if(ballypos < (yplayer1 + 41)){
+      ballyspeed = -1;
+    }
+    else if(ballypos < (yplayer1 + 42)){
+      ballyspeed = 1;
+    }
+    else if(ballypos < (yplayer1 + 44)){
+      ballyspeed = 2;
+    }
+    else if(ballypos < (yplayer1 + 60)){
+      ballyspeed = 3;
+    }
+    else if(ballypos < (yplayer1 + 80)){
+      ballyspeed = 5;
+    }
+    else{
+      ballyspeed = 7;
     }
   }
 }
