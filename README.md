@@ -1,7 +1,5 @@
 # Pong
 
-Pong game made with Processing.
-
 Default keybindings:
   - "w" to move Player 1 up.
   - "s" to move Player 1 down.
