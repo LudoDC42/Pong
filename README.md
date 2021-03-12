@@ -1,4 +1,4 @@
-# Pong-Processing
+# Pong
 
 Pong game made with Processing.
 
